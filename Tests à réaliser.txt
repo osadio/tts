@@ -1,0 +1,17 @@
+1. Tester l'accès à IBM Whatson TTS (Text to Speech) : saisir sur le terminal
+
+chmod +x test_IBM_watson_STT.pl
+./test_IBM_watson_STT.pl Arthur-Rimbaud-Le-dormeur-du-val.flac
+
+
+# Tu dois obtenir comme résultat des données json contenant entre autre le texte 
+"Le dormeur du val extrait du recueil poême de Arthur Rimbaud"
+
+2. Tester l'IVR asterisk avec les nouveaux fichiers
+
+speech-recog.agi
+googletts.agi
+
+
+
+
